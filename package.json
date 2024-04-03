@@ -1,0 +1,19 @@
+{
+  "name": "extraction",
+  "version": "1.0.0",
+  "description": "Given zipfileURL and password, extract the contained CSV file",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "adm-zip": "^0.5.12",
+    "axios": "^1.6.8",
+    "csv-parser": "^3.0.0",
+    "express": "^4.19.2",
+    "jszip": "^3.10.1",
+    "nodemon": "^3.1.0"
+  }
+}
