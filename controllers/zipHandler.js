@@ -45,8 +45,8 @@ async function handleExtraction(req, res) {
         return res.send(jsonData);
 
     } catch (error) {
-        console.error("Error handling extraction:", error);
-        return res.status(500).send("Error handling extraction");
+        console.log("Error handling extraction:", error);
+        return res.status(500).send("Error handling extraction" + error);
     }
 }
 
